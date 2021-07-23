@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-ignacio",
+  "version": "1.0.0",
+  "description": "Portfolio to showcase my skills",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass src/scss/main.scss src/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignacioanezin/Portfolio-Ignacio.git"
+  },
+  "author": "Ignacio Anezin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignacioanezin/Portfolio-Ignacio/issues"
+  },
+  "homepage": "https://github.com/ignacioanezin/Portfolio-Ignacio#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

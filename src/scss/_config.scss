@@ -1,0 +1,61 @@
+// Importing Poppins from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+// Setting 1rem to be 10px
+html {
+    font-size: 62.5%;
+  }
+
+
+//Colors
+$hue-color: 240;
+
+$first-color: hsl($hue-color, 80%, 43%);
+
+$first-color-alt: hsl($hue-color, 68%, 40%);
+$first-color-lighter: hsl($hue-color, 92%, 85%);
+$title-color: hsl($hue-color, 8%, 15%);
+$text-color: hsl($hue-color, 12%, 35%);
+$text-color-light: hsl($hue-color, 12%, 65%);
+$input-color: hsl($hue-color, 70%, 96%);
+$body-color: hsl($hue-color, 60%, 99%);
+$container-color: #FFF;
+
+// Font and Typography
+$body-font: 'Poppins', sans-serif;
+
+$biggest-font-size: 3.2rem;
+$h1-font-size: 2.4rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.8rem;
+$normal-font-size: 1.5rem;
+$small-font-size: 1.3rem;
+$smaller-font-size: 1.2rem;
+
+$font-medium: 500; 
+
+// Margenes bottom
+$mb-04: .4rem;
+$mb-08: .8rem;
+$mb-12: 1.2rem;
+$mb-16: 1.6rem;
+$mb-24: 2.4rem;
+$mb-32: 3.2rem;
+$mb-40: 4rem;
+$mb-48: 4.8rem;
+
+//Z index
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+// Fonts for large devices
+@media screen and (min-width: 968px) {
+    $biggest-font-size: 4.8rem;
+    $h1-font-size: 2.4rem;
+    $h2-font-size: 2rem;
+    $h3-font-size: 1.8rem;
+    $normal-font-size: 1.5rem;
+    $small-font-size: 1.3rem;
+    $smaller-font-size: 1.2rem;
+}

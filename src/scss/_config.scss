@@ -109,7 +109,7 @@ img {
 .section_subtitle{
   display: block;
   font-size: $small-font-size;
-  margin-bottom: $mb-3;
+  margin-bottom: $mb-32;
 }
 
 .section_title,
@@ -130,7 +130,14 @@ img {
   gap: 2.4rem;
 }
 
-
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: $z-fixed;
+  background-color: $body-color;
+}
 
 
 

@@ -61,6 +61,30 @@ img {
   z-index: 100;
   background-color: #fbfbfe; }
 
+.home__container {
+  gap: 1.6rem; }
+
+.home__content {
+  grid-template-columns: .5fr 3fr;
+  padding-top: 5.6rem;
+  align-items: center; }
+
+.home__social {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1.6rem; }
+
+.home__social-icon {
+  font-size: 2rem;
+  color: #1616c5; }
+
+.home__social-icon:hover {
+  color: #2121ab; }
+
+.home__img {
+  width: 170px;
+  border-radius: 50%; }
+
 .nav {
   max-width: 968px;
   height: 4.8rem;
@@ -77,7 +101,8 @@ img {
   color: #1616c5; }
 
 .nav__toggle {
-  color: #1616c5; }
+  color: #1616c5;
+  cursor: pointer; }
 
 @media screen and (max-width: 767px) {
   .nav__menu {

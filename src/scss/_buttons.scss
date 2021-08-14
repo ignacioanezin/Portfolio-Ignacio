@@ -1,10 +1,8 @@
-.button{
+.button {
   display: inline-block;
   background-color: $first-color;
   color: $white;
   padding: 1.6rem;
-  border-radius: .8rem;
-  
-  
-  padding
+  border-radius: 0.8rem;
+  font-weight: $font-medium;
 }
